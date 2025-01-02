@@ -20,7 +20,7 @@ area_type = house['area_type'].unique()
 availability = house['availability'].unique()
 location = house['location'].unique()
 
-st.title("Car Price Predictor")
+st.title("House Price Predictor")
 
 area_type_1 = st.selectbox("area type does your house belong to?", area_type)
 availability_1 = st.selectbox("Is it availble now or will it be availble soon?", availability)
